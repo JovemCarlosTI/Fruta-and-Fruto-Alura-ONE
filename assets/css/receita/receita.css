@@ -1,0 +1,16 @@
+.receita {
+	max-width: 450px;
+	background-color: #fdfdfd;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5rem;
+	margin-right: 5rem;
+	width: calc(25%- 5rem);
+	border-radius: 16px;
+
+	transition: all .6s ease-in-out;
+}
+
+.receita:hover {
+	background-color: #e9e9e9;
+}
