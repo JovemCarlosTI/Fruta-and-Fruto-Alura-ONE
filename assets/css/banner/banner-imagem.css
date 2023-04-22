@@ -1,5 +1,16 @@
 .banner__imagem {
+	background: url('../../img/banner.jpg') no-repeat center / cover;
+	/* background-image: url('../../img/banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; */
 	height: calc(100vh - 72px);
-	width: 100%;
 	user-select: none;
+	width: 100%;
+
+		transition: all .2s ease-in-out;
+}
+
+.banner__imagem:hover {
+	opacity: 80%;
 }

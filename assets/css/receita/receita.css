@@ -1,14 +1,14 @@
 .receita {
-	max-width: 450px;
 	background-color: #fdfdfd;
+	border-radius: 16px;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 5rem;
 	margin-right: 5rem;
+	max-width: 450px;
+	transition: all .4s ease-in-out;
 	width: calc(25%- 5rem);
-	border-radius: 16px;
 
-	transition: all .6s ease-in-out;
 }
 
 .receita:hover {
