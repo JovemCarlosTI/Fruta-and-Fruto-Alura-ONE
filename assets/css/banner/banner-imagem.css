@@ -4,7 +4,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; */
-	height: calc(100vh - 72px);
 	user-select: none;
 	width: 100%;
 
@@ -13,4 +12,16 @@
 
 .banner__imagem:hover {
 	opacity: 80%;
+}
+
+@media screen and (min-width: 0) {
+	.banner__imagem {
+		height: calc(100vh - 51px);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.banner__imagem {
+		height: calc(100vh - 72px);
+	}
 }
